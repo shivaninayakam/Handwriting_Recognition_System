@@ -67,7 +67,7 @@ for line in contours:
     roi_line = dilated2[y:y+w, x:x+w]
     crop_img = img[y:y + h, x:x+w]
     bb = "line"+str(line_idx)
-    cv2.imwrite(r'C:\Users\gajul\varsha\Handwritten-Recognition-System---Major-project\majorProjectResources\code\lines\{}.jpg'.format(bb), crop_img)
+    cv2.imwrite(r'C:\Users\nayakam\shivani\Handwritten-Recognition-System---Major-project\majorProjectResources\code\lines\{}.jpg'.format(bb), crop_img)
 
     # draw contours on each word
     (cnt, heirarchy) = cv2.findContours(
@@ -88,7 +88,7 @@ for line in contours:
             crop_img = img[y+y2:y+y2 + h2, x+x2:x+x2+w2]
             bb = "line"+str(line_idx)+"word" + str(word_idx)
             cv2.imwrite(
-                r'C:\Users\gajul\varsha\Handwritten-Recognition-System---Major-project\majorProjectResources\code\lines\words\{}.jpg'.format(bb), crop_img)
+                r'C:\Users\nayakam\shivani\Handwritten-Recognition-System---Major-project\majorProjectResources\code\lines\words\{}.jpg'.format(bb), crop_img)
             
             word_idx += 1
     line_idx -= 1
