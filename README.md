@@ -1,4 +1,4 @@
-# Handwritten-Recognition-System---Major-project
+# Handwritten-Recognition-System-Project
 
 * Developed a mobile app using React Native to recognize handwritten prescription medications.
 * Incorporated CRNN (Convolutional Recurrent Neural Network) model trained on the IAM dataset for text recognition.
